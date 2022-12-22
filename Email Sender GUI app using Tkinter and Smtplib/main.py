@@ -37,7 +37,7 @@ email_body_entry.grid(column=1, row=4, padx=20, pady=20)
 def send_email():
     # Smtplib for sending email
     email = user_entry.get()
-    password = "btcysemavltmdbef"
+    password = "your password"
 
     recipient_email = to_email_entry.get()
     subjects = subject_entry.get()
